@@ -6,8 +6,8 @@ Most people use **images of Robux icons or Premium icons** when showing player n
 
 This repository includes modules for:
 
-* Formatting player display names with admin, verified, or premium badges (`DisplayName.lua`)
-* Formatting prices with Robux or plain text (`DisplayPrice.lua`)
+* Formatting player display names with admin, verified, or premium badges (`PrepareDisplayName.lua`)
+* Formatting prices with Robux or plain text (`PrepareDisplayPrice.lua`)
 * Converting numbers, times, distances, bytes, percentages, and more (`ValueConverter.lua`)
 
 Perfect for shops, leaderboards, menus, and any interface where polished, readable UI matters.
@@ -26,7 +26,7 @@ roblox-ui-utilities
 ├── Format
 │   └── ValueConverter.lua    -- Converts numbers, times, distances, bytes, percentages, and more
 │
-└── README.md
+└── README.md     -- You're here haha
 ```
 
 ---
