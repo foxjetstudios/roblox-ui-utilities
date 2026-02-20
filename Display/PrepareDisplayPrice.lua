@@ -1,4 +1,4 @@
--- DisplayPrice.lua
+-- PrepareDisplayPrice.lua
 -- Formats a price with optional Robux icon
 
 local ICONS = {
