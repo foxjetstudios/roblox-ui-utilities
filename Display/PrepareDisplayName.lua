@@ -1,4 +1,4 @@
--- DisplayName.lua
+-- PrepareDisplayName.lua
 -- Formats a player's display name with optional badges/icons
 
 local ICONS = {
