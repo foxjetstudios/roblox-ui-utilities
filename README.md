@@ -38,8 +38,8 @@ roblox-ui-utilities
 
 ```lua
 local ValueConverter = require(game.ReplicatedStorage:WaitForChild("ValueConverter"))
-local prepareName = require(game.ReplicatedStorage:WaitForChild("PrepareDisplayName"))
-local preparePrice = require(game.ReplicatedStorage:WaitForChild("PrepareDisplayPrice"))
+local prepareDisplayName = require(game.ReplicatedStorage:WaitForChild("PrepareDisplayName"))
+local prepareDisplayPrice = require(game.ReplicatedStorage:WaitForChild("PrepareDisplayPrice"))
 ```
 
 3. Use the functions wherever you need properly formatted UI text.
@@ -51,14 +51,14 @@ local preparePrice = require(game.ReplicatedStorage:WaitForChild("PrepareDisplay
 ### Display Name
 
 ```lua
-local name = prepareName("Player123", true, Enum.MembershipType.Premium, false)
+local name = prepareDisplayName("Player123", true, Enum.MembershipType.Premium, false)
 print(name) -- Player123
 ```
 
 ### Display Price
 
 ```lua
-local price = preparePrice(100, true)
+local price = prepareDisplayPrice(100, true)
 print(price) -- 100
 ```
 
